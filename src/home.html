@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda-Brisa</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="img/Favicon-BRISA-1024x1024.png" alt="laBrisa">
+        <a href="">Inicio</a>
+        <a href="">Tienda</a>
+        <a href="">Conocenos</a>
+        <a href="">Encuentranos</a>
+        <a href="">Contacto</a>
+        <a href="carrito.html"><img class="bag" src="img/shopping-bag_7203405.png" alt=""></a>
+    </nav>
+    <div class="contenedorProductos">
+        <div class="producto">
+            <img class="foto" src="img/vestido1.jpg" alt="vestido1">
+            <h4 class="nombre">Vestido Paraiso</h4>
+            <p class="precio">179</p>
+            <input class="cantidad" type="number" min="1" pattern="^[0-9]+"><p>Selecciona la cantidad</p>
+            <select name="tallas" class="tallas">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+            </select>
+            <p>Elige la talla</p>
+            <button class="carrito">Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img class="foto" src="img/vestido2.webp" alt="vestido2">
+            <h4 class="nombre">Vestido Manglar</h4>
+            <p class="precio">202</p>
+            <input class="cantidad" type="number" min="1" pattern="^[1-9]+"><p>Selecciona la cantidad</p>
+            <select name="tallas" class="tallas">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+            </select>
+            <p>Elige la talla</p>
+            <button class="carrito">Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img class="foto" src="img/vestido3.webp" alt="vestido3">
+            <h4 class="nombre">Vestido Arena</h4>
+            <p class="precio">221</p>
+            <input class="cantidad" type="number" min="1" pattern="^[0-9]+"><p>Selecciona la cantidad</p>
+            <select name="tallas" class="tallas">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+            </select>
+            <p>Elige la talla</p>
+            <button class="carrito">Añadir al carrito</button>
+        </div>  
+        
+    </div>
+    
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Articulo añadido con exito al carrito</p>
+     <a href="carrito.html"><button>Ir al carrito</button></a>
+  </div>
+
+</div>
+
+
+    <script src="js/tienda.js"></script>
+</body>
+</html>
